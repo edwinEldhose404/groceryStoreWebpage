@@ -1,0 +1,142 @@
+.body{
+    height: 100%;
+}
+.center{
+    background: url(bg1.png) no-repeat;
+    background-size: cover;
+    height: 750px;
+    user-select: none;
+}
+.navbar{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(255, 254, 254);
+}
+.navbar .logo{
+    width: 80px;
+    height: auto;
+    height: 60px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 30px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar ul li a.active,.navbar ul li a:hover{
+    background: rgb(0, 255, 85);
+    border-radius: 2px;
+}
+.center .txt1{
+    color: white;
+    top: 200px;
+    position: relative;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+.center .txt2{
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.buttons .buttons1{
+    margin: 35px 675px;
+    width: 150px;
+    top: 150px;
+    position: relative;
+    font-size: 18px;
+    color: #fcfffd;
+    background: rgb(0, 255, 38);
+    border-radius: 35px;
+    transition: .4s;
+    border-color: rgb(0, 255, 38);
+    font-weight: bold;
+}
+
+.second2{
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    font-size: medium;
+    position: relative;
+    top: 60px;
+    left: 320px;
+}
+
+.second{
+    position: relative;
+    top: 60px;
+    left: 320px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 18px 36px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.first1{
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    font-size: medium;
+    position: relative;
+    top: 40px;
+    left: 265px;
+}
+
+.first{
+    position: relative;
+    top: 40px;
+    left: 265px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.challenges h1{
+    left: 265px;
+    font-size: 40px;
+    position: relative;
+}
+.challenges{
+    height: auto;
+}
+
+.off{
+    top: 45px;
+    left: 265px;
+    font-size: 40px;
+    position: relative;
+}
+.offers {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+max-width: 100%;
+max-height:100%;
+}
+
+.offers p,h3 {
+font-size: 20px;
+}
